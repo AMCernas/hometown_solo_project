@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Signika", sans-serif;
+}
+
+.hero-section{
+    background-image: url("./images/centrocolima.jpg");
+    background-size: 100% 100%;
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #e76f51ff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px black;
+}
+
+.hero-section h2{
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    background-color: #e9c46aff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-top: 0;
+    font-weight: 700;
+    width: 500px;
+    text-shadow: 0px 0px 1px black;
+}
+
+:root{
+--charcoal: #264653ff;
+--persian-green: #2a9d8fff;
+--saffron: #e9c46aff;
+--sandy-brown: #f4a261ff;
+--burnt-sienna: #e76f51ff;
+}
+
+.activities-section{
+    text-align: center;
+    background-color: rgba(255, 215, 0, 0.1);
+}
+
+.inner-activities-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.activities-title{
+    font-size: 26px;
+    font-weight: bold;
+    padding: 40px 0;
+    margin: 0;
+    color: #264653ff;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #264653ff;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.25);
+}
+
+.inner-activities-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.inner-activities-section h4{
+    font-size: 20px;
+    color: #264653ff;
+}
+
+.inner-activities-section p{
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    color: #264653ff;
+}   
+
+.guide-section{
+    height: 450px;
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(173, 216, 230, 0.2);
+}
+
+.inner-guide-section{
+    height: 350;
+    width: 40%;
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.1);
+    display: flex;
+    border-radius: 10px;
+    border-bottom: 5px solid #264653ff;
+}
+
+.inner-guide-section:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.inner-guide-section img{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.inner-guide-section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #264653ff;
+}
+
+.inner-guide-section div p{
+    font-size: 16px;
+    margin: 10px 0;
+    width: 80%;
+}
